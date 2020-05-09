@@ -1,0 +1,523 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+/*HEADER
+=============================
+*/
+.header {
+  width: 100%;
+  min-width: 1080px;
+  background-color: #6451d5;
+  color: #ffffff;
+  padding-top: 34px;
+  padding-bottom: 83px;
+}
+
+.header__top {
+  height: 83px;
+  margin: 0 30px;
+}
+
+.header__logo img {
+  height: auto;
+  width: auto;
+  float: left;
+}
+
+.header__top-menu {
+  float: right;
+  font-family: "Trebuchet MS Bold", sans-serif;
+  font-size: 18px;
+}
+
+.header__top-menu ul {
+  padding-top: 30px;
+  margin: 0;
+}
+
+.header__top-menu ul li {
+  display: inline;
+  margin-right: 55px;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.header__top-menu li:last-child {
+  margin-right: 0;
+}
+
+.header__top-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__top-menu ul li a:visited {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 1s;
+}
+
+.header__top-menu ul li a:hover {
+  text-decoration: underline;
+  transition: text-decoration 1s;
+}
+
+.header__top-menu ul li a:active {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 1s;
+}
+
+.header__promo-text {
+  position: relative;
+  clear: both;
+  width: 425px;
+  margin: 95px 30px 0 30px;
+}
+
+.header__title {
+  width: 450px;
+}
+
+.header__title p {
+  font-family: "Trebuchet MS Bold", sans-serif;
+  font-size: 45px;
+  line-height: 0.99;
+}
+
+.header__text {
+  width: 320px;
+}
+
+.header__text p {
+  font-family: "Tahoma", sans-serif;
+  font-size: 18px;
+  color: #bcb3f2;
+  line-height: 30px;
+}
+
+.header__button {
+  margin-top: 50px;
+}
+
+.header__button a {
+  width: 320px;
+  display: block;
+  margin-top: 50px;
+  font-family: "Trebuchet MS Bold", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #382d78;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.header__button a:visited {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 1s;
+}
+
+.header__button a:hover {
+  background: #32286c;
+  transition: background 1s;
+}
+
+.header__button a:active {
+  color: rgba(255, 255, 255, 0.5);
+  background: #32286c;
+  transition: background 1s, color 1s;
+}
+
+.header__image {
+  position: absolute;
+  top: -20px;
+  left: 385px;
+  width: 650px;
+  height: 450px;
+  background-image: url('../img/header.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*ADVANTAGES
+=============================
+*/
+.advantages {
+  min-width: 1080px;
+  background-color: #efefef;
+  text-align: center;
+  padding: 50px 0 45px 0;
+}
+
+.advantages__item {
+  display: inline-block;
+  width: 320px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.advantages__item:last-child {
+  margin-right: 30px;
+}
+
+.advantages__icon {
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+}
+
+.plot {
+  background-image: url('../img/advantages__icon1.png');
+}
+
+.practice {
+  background-image: url('../img/advantages__icon2.png');
+}
+
+.job {
+  background-image: url('../img/advantages__icon3.png');
+}
+
+.advantages__title h2 {
+  font-family: "Tahoma Bold", sans-serif;
+  font-size: 22px;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.advantages__text {
+  white-space: normal;
+}
+
+.advantages__text p {
+  font-family: "Tahoma", sans-serif;
+  font-size: 18px;
+  color: #555555;
+  line-height: 24px;
+  padding: 22px 0 0 0;
+  margin: 0 0 0 0;
+}
+/*STUDY-FORM
+=============================
+*/
+.study-form {
+  min-width: 1080px;
+  background: #ffffff;
+  padding: 50px 0 68px 0;
+}
+
+.study-form .container {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.study-form__title {
+  margin: 0 30px 58px 30px;
+}
+
+.study-form__title h2 {
+  font-family: "Trebuchet MS Bold", sans-serif;
+  font-size: 45px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.study-form__table {
+  margin: 0 30px 0 30px;
+}
+
+.study-form__table table {
+  min-width: 100%;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.study-form__table table tr {
+  box-sizing: border-box;
+}
+
+.study-form__table table tr:first-child {
+  background-color: #efefef;
+}
+
+.study-form__table table tr td {
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  border: 2px solid #b2b2b2;
+  padding: 25px 43px 22px 30px;
+  vertical-align: top;
+  white-space: pre;
+}
+
+.study-form__table table tr:not(:first-child) td {
+  padding: 21px 45px 23px 30px;
+  line-height: 28px;
+}
+
+.study-form__table table tr td b {
+  font-family: "Trebuchet MS Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+/*FEEDBACK
+=============================
+*/
+.feedback {
+  min-width: 1080px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+}
+
+.feedback .container {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.feedback__title {
+  margin: 0 30px 58px 30px;
+}
+
+.feedback__title h2 {
+  font-family: "Trebuchet MS Bold", sans-serif;
+  font-size: 43px;
+  margin: 0;
+  padding: 0;
+}
+
+.feedback__form {
+  font-family: "Tahoma", sans-serif;
+  font-size: 18px;
+  float: left;
+  width: 640px;
+  margin: 0 30px 0 30px;
+}
+
+.feedback__form table tr td {
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+.feedback__form table tr td:first-child {
+  width: 90px;
+  padding-right: 5px;
+  vertical-align: top;
+  text-align: right;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 54px;
+}
+
+.feedback__sex input#female {
+  margin: 0 30px 0 50px;
+}
+
+.feedback__sex input#male  {
+  margin: 0 30px 0 20px;
+}
+
+.feedback__form form input[type=text],
+.feedback__form form textarea {
+  font-family: "Tahoma", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 97%;;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  color: #000000;
+  line-height: 24px;
+  outline: none;
+  border: 2px solid #b2b2b2;
+  border-radius: 2px;
+}
+
+.feedback__form form input[type=text]:hover,
+.feedback__form form textarea:hover {
+  border: 2px solid #000000;
+  transition: border 1s;
+}
+
+.feedback__form form input[type=text]:focus,
+.feedback__form form textarea:focus {
+  border: 2px solid #6451d5;
+  transition: border 2s;
+}
+
+.feedback__form form textarea {
+  padding: 13px 23px;
+  margin-bottom: 7px;
+}
+
+.feedback__form form input[type=text]::placeholder {
+  color: #000000;
+}
+
+.feedback__form form input[type=submit] {
+  font-family: "Trebuchet MS Bold", sans-serif;
+  font-size: 20px;
+  width: 97%;;
+  padding: 23px 0 22px 0;
+  text-align: center;
+  background-color: #382d78;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.feedback__form form input[type=submit]:hover {
+  background: #32286c;
+}
+
+.feedback__form form input[type=submit]:focus {
+  background: #32286c;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback__form form input[type=radio] {
+  cursor: pointer;
+}
+
+.feedback__form form textarea {
+  min-height: 105px;
+  resize: none;
+}
+
+.feedback__text {
+  float: right;
+  width: 320px;
+  margin: 0 30px 20px 0;
+  text-align: left;
+}
+
+.feedback__text h3 {
+  font-family: "Trebuchet MS Bold", sans-serif;
+  font-size: 22px;
+  padding: 5px 0 28px 0;
+  margin: 0;
+  line-height: 27px;
+}
+
+.feedback__text p {
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 0 0 22px 0;
+  color: #555555;
+  line-height: 26px;
+}
+
+.feedback__text > .feedback__alert {
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+/*FOOTER
+=============================
+*/
+.footer {
+  min-width: 1080px;
+  padding-top: 65px;
+  padding-bottom: 90px;
+  background-color: #2a2546;
+}
+
+.footer__info {
+  display: inline-block;
+  width: 300px;
+  margin: 0 0 0 30px;
+  padding: 0 50px 20px 0;
+  vertical-align: top;
+}
+
+.footer__logo {
+  display: block;
+  padding-bottom: 80px;
+}
+
+.footer__info pre {
+  margin: 0;
+}
+
+.footer__info p {
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer__menu {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding: 25px 0 0 0;
+  margin: 0 -10px 0 0;
+}
+
+.footer__study {
+  margin: 0 -20px 0 0;
+}
+
+.footer__menu:not(.footer__contacts) {
+  width: 190px;
+}
+
+.footer__contacts {
+  float: right;
+  margin: 0 30px 0 -20px;
+  padding-left: 10px;
+}
+
+.footer__menu h3 {
+  font-family: "Tahoma Bold", sans-serif;
+  font-size: 19px;
+  color: #ffffff;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.footer__menu ul {
+  padding: 25px 0 20px 0;
+  margin: 0;
+}
+
+.footer__menu ul li {
+  list-style-type: none;
+  margin: 0 0 30px 0;
+}
+
+.footer__menu ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footer__menu ul li a {
+  display: block;
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #bcb3f2;
+}
+
+.footer__menu ul li a:visited {
+  color: rgba(188, 179, 242, 0.5);
+  transition: color 1s;
+}
+
+.footer__menu ul li a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  transition: color 1s, text-decoration 1s;
+}
+
+.footer__menu ul li a:active {
+  color: rgba(188, 179, 242, 0.5);
+  transition: color 1s;
+}
